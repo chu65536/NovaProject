@@ -2,7 +2,7 @@ import requests
 
 link = "https://lemonvitaliy.amocrm.ru/api/v4/contacts"
 
-f = open('accesstoken', 'r')
+f = open('../data/accesstoken', 'r')
 access_token = f.read()
 
 # Input

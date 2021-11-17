@@ -7,7 +7,7 @@ client_secret = "20CyR19FWdq8FzzLSwTf7aXJHbtlG8V51XmNMNEP5h44JZXrMGOwp0s9j0KoUq6
 grant_type = "refresh_token"
 redirect_uri = "http://8589-93-181-227-201.ngrok.io"
 
-f = open('refreshtoken', 'r')
+f = open('../data/refreshtoken', 'r')
 refresh_token = f.read()
 f.close()
 
@@ -18,11 +18,13 @@ response = requests.post(link, json={'client_id': client_id,
                                      'redirect_uri': redirect_uri})
 
 refresh_token = response.json()['refresh_token']
-f = open('refreshtoken', 'w')
+f = open('../data/refreshtoken', 'w')
 f.write(refresh_token)
 f.close()
 
 access_token = response.json()['access_token']
-f = open('accesstoken', 'w')
+f = open('../data/accesstoken', 'w')
 f.write(access_token)
 f.close()
+
+print(response.text)
