@@ -9,7 +9,7 @@ Also I've never written any code on Django framework so it will be very useful a
 ______
 How it works:
 
-1. Ask me to run server and refresh token :)
+1. Ask me to run server refresh token and give you ngrok link :)
 2. Edit ngrok link in serverrequest.py
 3. Run serverrequest.py (or create request manually)
 
