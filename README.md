@@ -9,8 +9,7 @@ Also I've never written any code on Django framework so it will be very useful a
 ______
 How it works:
 
-1. Ask me to run server :)
-2. In case access token expired run refreshtoken.py
-3. Run serverrequest.py
+1. Ask me to run server and refresh token :)
+2. Run serverrequest.py
 
 Done!
