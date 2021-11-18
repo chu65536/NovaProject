@@ -1,6 +1,6 @@
 import requests
 
-link = 'http://5c9c-109-161-50-226.ngrok.io'  # ngrok link
+link = 'http://766b-109-161-50-226.ngrok.io'  # ngrok link
 link = link + '/req'
 
 print('Enter your first name:')
