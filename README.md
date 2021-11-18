@@ -10,6 +10,7 @@ ______
 How it works:
 
 1. Ask me to run server and refresh token :)
-2. Run serverrequest.py
+2. Edit ngrok link in serverrequest.py
+3. Run serverrequest.py (or create request manually)
 
 Done!
